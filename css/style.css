@@ -740,9 +740,7 @@ body{
         line-height: 30px;
     }
     .solution{
-        /* display: block; */
-        flex-direction: column-reverse;
-        height: auto;
+        display: block;
     }   
     .sol-text1{
         margin: 0 auto;
@@ -766,10 +764,6 @@ body{
         flex-direction: column-reverse;
     }
     .inner{
-        /* background-image: url(../image/started.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; */
         width: 100%;
     }
     .col3{
@@ -778,7 +772,6 @@ body{
         padding-bottom: 30px;
     }
     .col4{
-        /* display: none; */
         height: auto;
         width: 100%;
     }
@@ -786,9 +779,6 @@ body{
         height: auto;
         width: inherit;
     }
-/*     .started{
-        display: block;
-    } */
     .sol-text1{
         width: 100%;
     }
