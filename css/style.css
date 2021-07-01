@@ -786,9 +786,9 @@ body{
         height: auto;
         width: inherit;
     }
-    .started{
+/*     .started{
         display: block;
-    }
+    } */
     .sol-text1{
         width: 100%;
     }
