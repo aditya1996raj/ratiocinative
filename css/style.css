@@ -761,9 +761,10 @@ body{
     .hire-img img{
         width: 100%;
     }
-    /* .solution{
-
-    } */
+    .started{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .inner{
         /* background-image: url(../image/started.png);
         background-position: center;
