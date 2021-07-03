@@ -4,6 +4,41 @@ body{
     padding: 0%;
     /* overflow: hidden; */
 }
+
+
+.nav {
+    width: 95%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 30px 50px 0px 50px;
+    justify-content: space-between;
+}
+.affix{
+    width: 95%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 30px 50px 20px 50px;
+    background-color: #f69849;
+    z-index: 999;
+}
+/* .affix .menu-toggle{
+    right: 120px;
+} */
+.menu-ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    float: right;
+    margin: 0;
+}
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0%;
+    /* overflow: hidden; */
+}
 /* ul{
     padding: 0px;
     list-style: none;
@@ -27,14 +62,6 @@ body{
 .menu{
     width: 80%;
 }
-.menu-ul{
-    display: flex;
-    list-style: none;
-    padding: 0px;
-    float: right;
-    margin: 0px;
-    margin-top: 11px;
-}
 .menu-li{
     margin-right:40px;
 }
@@ -51,11 +78,9 @@ body{
     text-decoration: none;
     text-transform: uppercase;
 }
-/* .menu-color{
-    color: #fd8200;
-} */
 .menu-a:hover{
-    border-bottom: 3px solid #000;
+    color: #000;
+    /* border-bottom: 3px solid #000; */
     transition: .5s ease;
 }
 
@@ -64,7 +89,7 @@ body{
     margin: 0 auto;
 }
 .banner-text{
-    padding-top: 120px;
+    padding-top: 213px;
     padding-bottom: 104px;
 }
 .text-ul{
@@ -84,7 +109,7 @@ body{
     
 }
 .text-h1{
-    margin-bottom: 42px;
+    margin-bottom: 50px;
     margin-top: 8px;
     font-size: 54px;
     letter-spacing: -1px;
@@ -100,7 +125,7 @@ body{
     color: #ffffff;
     font-weight: 400;
     font-family: "Montserrat";
-    margin-bottom: 32px;
+    margin-bottom: 34px;
 }
 .text-li1{ 
     margin-right: 40px;
@@ -119,6 +144,7 @@ body{
 .text-a:hover{
     transition: .5s ease-in-out;
     border-bottom: 3px solid #000;
+    color: #000;
 }
 .text-ul2{
     padding: 0px;
@@ -163,9 +189,10 @@ body{
 }
 .sol-text2{
     width: 60%;
-    margin-left: 108px;
+    margin-left: 100px;
 }
 .sol-text-p{
+    margin-top: 5px;
     font-size: 16px;
     line-height: 28px;
     color: #000000;
@@ -186,7 +213,8 @@ body{
     margin-left: 40px;
 }
 .product-row{
-    padding-bottom: 50px;
+    padding-bottom: 58px;
+    margin-top: 56px;
 }
 .product-h3{
     margin-top: 18px;
@@ -216,7 +244,7 @@ body{
     margin-left: 42px;
 }
 .mobile-list{
-    margin-left: 55px;
+    margin-left: 45px;
 }
 .ecom-list{
     margin-left: 30px;
@@ -259,7 +287,6 @@ body{
     width: 26%;
 }
 /* .three{
-
 } */
 .four{ 
     width: 25%;
@@ -268,7 +295,7 @@ body{
 .five{
     margin-left: 182px;
     margin-right: 160px;
-    width: 25%;
+    width: 354px;
 }
 .six{
     width: 24%;
@@ -290,15 +317,14 @@ body{
     margin-left: 260px;
 }
 .col3{
-    padding-top: 67px;
-
+    padding-top: 71px;
 }
 .col4{
     width: 50%;
-    height: 748px;
+    height: 739px;
 }
 .col4 img{
-    height: 748px;
+    height: 739px;
     width: fit-content;
 }
 .start-h6{
@@ -309,7 +335,7 @@ body{
     font-weight: 800;
     font-family: "Montserrat";
     text-transform: uppercase;
-    margin-bottom: 13px;
+    margin-bottom: 9px;
 }
 .start-h3{
     margin-top: 0px;
@@ -319,6 +345,7 @@ body{
     color: #ffffff;
     font-weight: 700;
     font-family: "Montserrat";
+    margin-bottom: 36px;
 }
 .start-span{
     color: #000000;
@@ -331,10 +358,13 @@ body{
     font-family: "Montserrat";
 }
 .fisrt-p {
-    margin-bottom: 28px;
+    margin-bottom: 30px;
 }
 .gap{
-    padding-bottom: 101px;
+    padding-bottom: 103px;
+}
+.hiring-row{
+    margin-top: 58px;
 }
 .hiring-img{
     width: 51%;
@@ -344,7 +374,7 @@ body{
     width: 100%;
 }
 .hiring-text{
-    padding-top: 113px;
+    padding-top: 114px;
     margin-left: 105px;
     width: 40%;
 }
@@ -356,7 +386,7 @@ body{
     color: #000000;
     font-weight: 800;
     font-family: "Montserrat";
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 .hiring-h3{
     font-size: 40px;
@@ -377,12 +407,12 @@ body{
     color: #000000;
     font-weight: 400;
     font-family: "Montserrat";
-    margin-bottom: 44px;
+    margin-bottom: 49px;
 }
 .hiring-a{
     border: 2px solid #fd8200;
     background-color: #fd8200;
-    padding: 23px 25px;
+    padding: 23px 18px;
     border-radius: 5px;
     font-size: 18px;
     letter-spacing: 0px;
@@ -402,8 +432,8 @@ body{
 }
 .quote{
     background-color: #fd8200;
-    padding-bottom: 101px;
-    padding-top: 110px;
+    padding-bottom: 106px;
+    padding-top: 115px;
 }
 .quote-h2{
     font-size: 40px;
@@ -427,6 +457,9 @@ body{
     margin: 0px;
     margin-top: 27px;
 }
+
+
+
 .footer{
     background-color: #222222;
     padding-top: 112px;
@@ -435,15 +468,14 @@ body{
 }
 .flex{
     display: flex;
-    /* align-items: center; */
+
 }
 .foot-logo{
-    margin-left: 18px;
+    margin-left: 17px;
 }
 .foot-menu{
     display: flex;
     margin-left: auto;
-    margin-right: 8px;
 }
 .foot-ul{
     padding: 0px;
@@ -451,28 +483,20 @@ body{
     margin: 0px;
 }
 .foot{
-    margin-left: 99px;
+    margin-left: 90px;
     padding: 0px 5px;
     position: relative;
 }
-.foot-first{
-    margin-left: 0px;
-}
 .foot-ul::before{
     content: url(../image/foot-border.png);
-    /* color: #fd8200;
-    font-weight: 700;
-    display: inline-block;
-    width: 15px;
-    font-size: 25px; */
     position: absolute;
-    left: -18px;
-    top: 13px;
+    left: -12px;
+    top: 0px;
 }
 .foot-li{
     font-size: 16px;
     letter-spacing: 0px;
-    line-height: 36px;
+    margin-bottom: 5px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Montserrat";
@@ -483,7 +507,7 @@ body{
 .foot-a{
     font-size: 16px;
     letter-spacing: 0px;
-    line-height: 36px;
+    line-height: 25px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Montserrat";
@@ -491,8 +515,7 @@ body{
 }
 .foot-a:hover{
     border-bottom: 3px solid #fff;
-    transition: .5s ease;
-
+    transition: 0.6s ease-in-out;
 }
 .foot-p{
     font-size: 16px;
@@ -503,8 +526,13 @@ body{
     font-family: "Montserrat";
     text-align: center;
     margin: 0px;
-    padding: 5px 0px;
+    padding: 11px 0px;
 }
+
+
+
+
+
 .hire-img{
     display: none;
 }
@@ -525,11 +553,14 @@ body{
     .inner{
         margin: 0 auto;
         width: 567px;
-        margin-right: 127px;
+        margin-right: 124px;
     }
 }
 
 @media only screen and (max-width:1520px) {
+    .nav {
+        width: 94%;
+    }
     .banner-text{
         margin: 0px 60px;
     }
@@ -565,7 +596,7 @@ body{
     }
 }
 
-@media only screen and (max-width:1366px){
+@media only screen and (max-width:1367px){
     .text-li{
         font-size: 14px;
     }
@@ -603,6 +634,9 @@ body{
         margin: 0 auto;
         width: 567px;
         /* margin-right: 260px; */
+    }
+    .nav {
+        width: 93%;
     }
 }
 
@@ -646,6 +680,9 @@ body{
     .inner{
         width: 500px;
         margin: 0 auto;
+    }
+    .nav {
+        width: 92%;
     }
 
 }
@@ -731,6 +768,9 @@ body{
     
 }
 @media only screen and (max-width:1000px) {
+    .nav {
+        width: 90%;
+    }
     .text-h1{
         font-size: 35px;
         line-height: 50px;
@@ -764,7 +804,7 @@ body{
         flex-direction: column-reverse;
     }
     .inner{
-        width: 100%;
+        width: 88%;
     }
     .col3{
         width: 90%;
@@ -793,7 +833,25 @@ body{
         width: 100%;
     }
 }
+@media only screen and (max-width:929px) {
+    .footer{
+        padding-bottom: 82px;
+    }
+    .foot-menu{
+        display: block;
+    }
+    .foot{
+        margin-bottom: 30px;
+    }
+    .foot-p{
+        font-size: 14px;
+    }
+    
+}
 @media only screen and (max-width:880px) {
+    .nav {
+        width: 89%;
+    }
     .text-p{
         font-size: 14px;
     }
@@ -818,11 +876,18 @@ body{
     } 
 }
 @media only screen and (max-width:750px) {
+    .nav {
+        width: 87%;
+    }
+    .banner-text {
+        padding-top: 175px;
+    }
     .text-p {
         font-size: 12px;
     }
     .text-h1{
         font-size: 30px;
+        line-height: 45px;
     }
     .first{
         width: 90%;
@@ -830,17 +895,10 @@ body{
     }
     .hiring-text{
         width: 90%;
-        /* text-align: center; */
     }
     .hiring-a {
         font-size: 12px;
     }
-    /* .hiring-h3{
-        text-align: center;
-    }  
-    .hiring-h6{
-        text-align: center;
-    }   */
     .col3{
         padding-bottom: 30px;
     }
@@ -854,22 +912,18 @@ body{
         align-items: center;
     }
     .logo{
-        width: 50%;
+        width: 35%;
     }
     .logo img{
         width: 100%;
     }
-    /* .top-nav{
-        position: relative;
-    } */
     .toggle{
         display: block;
-        /* position: relative; */
     }
     .menu-toggle{
         position: absolute;
-        right: 30px;
-        top: 30px;
+        right: 70px;
+        top: 43px;
         font-size: 30px;
         color: #fff;
     }
@@ -879,17 +933,19 @@ body{
     .active{
         position: absolute;
         top: 50px;
-        background: transparent;
-        width: 50%;
+        /* background: transparent; */
+        /* width: 50%; */
         right: 0px;
+        background-color: #fd8200;
+        /* border-radius: 20px 0px 0 20px; */
+        transition: 0.6s;
+        width: 100%; 
+        display: block;
     }
     .menu-ul{
         width: 50%;
         display: none;
     }
-    /* .menu-a{
-
-    } */
     .menu-li{
         display: block;
         text-align: center;
@@ -897,9 +953,6 @@ body{
     .active{
         display: block;
     }
-    /* br{
-        display: none;
-    } */
     .product-h3 br{ 
         display: none;
     }
@@ -915,7 +968,19 @@ body{
     .text-ul2{
         flex-wrap: wrap;
     }
+    .banner-text {
+        padding-top: 150px;
+    }
+    .foot-p {
+        font-size: 13px;
+    }
 
+}
+@media only screen and (max-width:650px) {
+    .menu-toggle{
+        top: 38px;
+    }
+    
 }
 @media only screen and (max-width:507px){
     .first{
@@ -931,7 +996,7 @@ body{
         margin-top: 25px;
     }
     .banner-text{
-        padding-top: 10px;
+        
         padding-bottom: 35px;
     }
     .solution{
@@ -955,7 +1020,6 @@ body{
         line-height: 25px;
     }
     /* .product-h3{
-
     } */
     .start-h3{
         line-height: 30px;
@@ -973,18 +1037,16 @@ body{
     .hiring-h6{
         line-height: 25px;
     }
-   .active {
-        background-color: #fd8200;
-        border-radius: 20px 0px 0 20px;
-        transition: 0.6s;
-        width: 100%; 
-    }
     .col1 img {
         width: 60px;
     }
+    .menu-toggle {
+        top: 32px;
+        font-size: 23px;
+    }
 
 }
-@media only screen and (max-width:450px){
+@media only screen and (max-width:454px){
     .top-nav{
         padding: 30px 30px;
     }
@@ -1017,9 +1079,7 @@ body{
         line-height: 22px;
         font-size: 10px;
     }
-    /* .col1{
-        text-align: center;
-    } */
+    
     .product-h3{
         font-size: 15px;
     }
@@ -1125,7 +1185,5 @@ body{
     .foot-logo{
         width: 75%;
     }
+
 }
-
-
-
