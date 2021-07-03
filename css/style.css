@@ -21,6 +21,7 @@ body{
     align-items: center;
     padding: 30px 50px 20px 50px;
 	background-color: #f78444;
+	z-index: 999;
 }
 .menu-ul{
     display: flex;
