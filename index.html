@@ -12,22 +12,22 @@
     <title>Ratiocinative</title>
 </head>
 <body style="max-width: 1920px; margin: 0 auto;">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://aditya1996raj.github.io/ratiocinative/"><img src="image/ratio-logo copy.png" alt=""></a>
+        </div>
+        <div class="toggle">
+            <i class="fa fa-bars menu-toggle" aria-hidden="true"></i>
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="menu-ul">
+                <li class="menu-li"><a class="menu-a" href="https://aditya1996raj.github.io/ratiocinative/">About</a></li>
+                <li class="menu-li"><a class="menu-a" href="#">Projects</a></li>
+                <li class="menu-li"><a class="menu-a" href="https://aditya1996raj.github.io/careers/">Careers</a></li>
+            </ul>
+        </div>
+    </nav>
     <header class="header">
-        <nav class="top-nav">
-            <div class="logo">
-                <a href="https://aditya1996raj.github.io/ratiocinative/"><img class="logo-com" src="image/ratio-logo copy.png" alt="ratiocinative"></a>
-            </div>
-            <div class="toggle">
-                <i class="fa fa-bars menu-toggle" aria-hidden="true"></i>
-            </div>
-            <div class="menu">
-                <ul class="menu-ul">
-                    <li class="menu-li"><a class="menu-a" href="https://aditya1996raj.github.io/ratiocinative/">About</a></li>
-                    <li class="menu-li"><a class="menu-a" href="">Projects</a></li>
-                    <li class="menu-li"><a class="menu-a" href="https://aditya1996raj.github.io/careers/">Careers</a></li>
-                </ul>
-            </div>
-        </nav>
         <div class="container">
             <div class="banner-text">
                 <div class="text">
@@ -162,9 +162,6 @@
     </section>
     
     <section class="started">
-        <!-- <div class="hire-img">
-            <img src="image/Rectangle 4 copy.png" alt="">
-        </div> -->
         <div class="inner">
             <div class="col3">
                 <h6 class="start-h6">where it all strted</h6>
@@ -189,7 +186,7 @@
                         <h6 class="hiring-h6">Looking for a Job? We’re Hiring!</h6>
                         <h3 class="hiring-h3">Let’s <span class="hiring-span">Collaborate,</span> <br> Coffee’s on Us!</h3>
                         <p class="hiring-p">Do you need your site to be an engaging website? We’ve enabled several customers to boost their business growth on the web. Let’s work together!</p>
-                        <a class="hiring-a" href="https://aditya1996raj.github.io/careers/">See what best fits your profile <i class="fa fa-long-arrow-right" style="margin-left: 15px;" aria-hidden="true"></i></a>
+                        <a class="hiring-a" href="https://aditya1996raj.github.io/ratio-careers/">See what best fits your profile <i class="fa fa-long-arrow-right" style="margin-left: 15px;" aria-hidden="true"></i></a>
                     </div>
                 </div>
 
@@ -209,13 +206,13 @@
         <div class="container">
             <div class="flex">
                 <div class="foot-logo">
-                    <a href="https://aditya1996raj.github.io/ratiocinative/"><img src="image/ratio-logo copy.png" alt="ratiocinative"></a>
+                    <a href="https://aditya1996raj.github.io/ratiocinative/"><img src="image/ratio-logo copy.png" alt=""></a>
                 </div>
                 <div class="foot-menu">
-                    <div class="foot foot-first">
-                        <ul class="foot-ul" style="width: 203px;">
+                    <div class="foot">
+                        <ul class="foot-ul">
                             <li class="foot-li">Address</li>
-                            <li class="foot-li li3"><a class="foot-a" href="https://goo.gl/maps/aMa3LDDXDtYzFejP8">A-606 Bestech Business Towers, Sector 66, Mohali</a></li>
+                            <li class="foot-li li3"><a class="foot-a" href="https://goo.gl/maps/aMa3LDDXDtYzFejP8">A-606 Bestech Business <br> Towers, Sector 66, Mohali</a></li>
                             
                         </ul>
                     </div>
@@ -239,6 +236,18 @@
     <div class="copy">
         <p class="foot-p">Copyright &#169; 2021 Ratiocinative Solutions</p>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
     <script
         src="https://code.jquery.com/jquery-3.6.0.js"></script>
         <script type="text/javascript">
