@@ -20,9 +20,41 @@ body{
     display: flex;
     align-items: center;
     padding: 30px 50px 20px 50px;
-    background-color: #f69849;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #fcb69f , #f6d365,#ee7752, #e73c7e, #23a6d5, #23d5ab );
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
     z-index: 999;
 }
+
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
 /* .affix .menu-toggle{
     right: 120px;
 } */
