@@ -29,6 +29,7 @@ body{
     padding: 0px;
     float: right;
     margin: 0;
+	padding-right: 8px;
 }
 body{
     max-width: 1920px;
@@ -101,7 +102,7 @@ body{
     
 }
 .text-h1{
-    margin-bottom: 50px;
+	margin-bottom: 38px;
     margin-top: 8px;
     font-size: 54px;
     letter-spacing: -1px;
@@ -144,7 +145,7 @@ body{
     display: flex;
 }
 .solution{
-    padding-top: 108px;
+    padding-top: 111px;
     display: flex;
     align-items: center;
 }
@@ -199,13 +200,13 @@ body{
 .first{
     display: flex;
     /* width: 33%; */
-    padding-bottom: 33px;
+    padding-bottom: 35px;
 }
 .col2{
     margin-left: 40px;
 }
 .product-row{
-    padding-bottom: 58px;
+    padding-bottom: 86px;
     margin-top: 56px;
 }
 .product-h3{
@@ -277,6 +278,7 @@ body{
     margin-left: 181px;
     margin-right: 156px;
     width: 26%;
+	padding-bottom: 79px;
 }
 /* .three{
 } */
@@ -305,7 +307,7 @@ body{
 }
 .inner{
     margin: 0 auto;
-    width: 567px;
+    width: 559px;
     margin-left: 260px;
 }
 .col3{
@@ -353,7 +355,7 @@ body{
     margin-bottom: 30px;
 }
 .gap{
-    padding-bottom: 103px;
+    padding-bottom: 98px;
 }
 .hiring-row{
     margin-top: 58px;
@@ -423,7 +425,7 @@ body{
 }
 .quote{
     background-color: #fd8200;
-    padding-bottom: 106px;
+    padding-bottom: 109px;
     padding-top: 115px;
 }
 .quote-h2{
