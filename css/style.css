@@ -11,8 +11,11 @@ body{
     position: fixed;
     display: flex;
     align-items: center;
-    padding: 30px 50px 0px 50px;
     justify-content: space-between;
+	max-width: 1820px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
 }
 .affix{
     width: 95%;
@@ -29,7 +32,6 @@ body{
     padding: 0px;
     float: right;
     margin: 0;
-	padding-right: 8px;
 }
 body{
     max-width: 1920px;
