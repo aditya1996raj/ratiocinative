@@ -209,7 +209,7 @@ body{
     margin-left: 40px;
 }
 .product-row{
-    padding-bottom: 56px;
+    padding-bottom: 90px;
     margin-top: 56px;
 }
 .product-h3{
@@ -519,6 +519,7 @@ body{
     color: #f78444;
 }
 .foot-p{
+    margin-left: 6%;
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 28px;
