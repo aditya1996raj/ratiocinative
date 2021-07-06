@@ -483,9 +483,12 @@ body{
     list-style: none;
     margin: 0px;
 }
+.foot-ul:last-child{
+    padding-right: 5px;
+}
 .foot{
     margin-left: 90px;
-    padding: 0px 5px;
+    padding: 0px 3px;
     position: relative;
 }
 .foot-ul::before{
