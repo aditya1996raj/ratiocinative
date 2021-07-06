@@ -7,24 +7,25 @@ body{
 
 
 .nav {
-    width: 95%;
+    width: 100%;
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
-	max-width: 1820px;
+    max-width: 1920px;
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 30px;
+    box-sizing: border-box;
 }
 .affix{
-    width: 95%;
+    width: 100%;
     position: fixed;
     display: flex;
     align-items: center;
     padding: 30px 50px 20px 50px;
-	background-color: #f78444;
-	z-index: 999;
+    background-color: #f78444;
+    z-index: 999;
 }
 .menu-ul{
     display: flex;
@@ -554,9 +555,9 @@ body{
 }
 
 @media only screen and (max-width:1520px) {
-    .nav {
+/*     .nav {
         width: 94%;
-    }
+    } */
     .banner-text{
         margin: 0px 60px;
     }
@@ -631,9 +632,9 @@ body{
         width: 567px;
         /* margin-right: 260px; */
     }
-    .nav {
+/*     .nav {
         width: 93%;
-    }
+    } */
 }
 
 @media only screen and (max-width:1287px){
@@ -677,9 +678,9 @@ body{
         width: 500px;
         margin: 0 auto;
     }
-    .nav {
+/*     .nav {
         width: 92%;
-    }
+    } */
 
 }
 
@@ -764,9 +765,9 @@ body{
     
 }
 @media only screen and (max-width:1000px) {
-    .nav {
+/*     .nav {
         width: 90%;
-    }
+    } */
     .text-h1{
         font-size: 35px;
         line-height: 50px;
@@ -845,9 +846,9 @@ body{
     
 }
 @media only screen and (max-width:880px) {
-    .nav {
+/*     .nav {
         width: 89%;
-    }
+    } */
     .text-p{
         font-size: 14px;
     }
@@ -872,9 +873,9 @@ body{
     } 
 }
 @media only screen and (max-width:750px) {
-    .nav {
+/*     .nav {
         width: 87%;
-    }
+    } */
     .banner-text {
         padding-top: 175px;
     }
