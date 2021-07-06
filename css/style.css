@@ -73,6 +73,7 @@ body{
     font-family: "Montserrat";
     text-decoration: none;
     text-transform: uppercase;
+	transition: .6s ease;
 }
 .menu-a:hover{
     color: #000;
@@ -136,6 +137,7 @@ body{
     text-decoration: none;
     padding-bottom: 5px;
     border-bottom: 3px solid #fff;
+	transition: .5s ease-in-out;
 }
 .text-a:hover{
     transition: .5s ease-in-out;
@@ -424,6 +426,7 @@ body{
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+	transition: .6s ease;
 }
 .hiring-a:hover{
     background-color: #fff;
@@ -516,6 +519,8 @@ body{
     font-weight: 400;
     font-family: "Montserrat";
     text-decoration: none;
+	transition: .6s ease;
+	
 }
 .foot-a:hover{
     transition: .6s ease;
