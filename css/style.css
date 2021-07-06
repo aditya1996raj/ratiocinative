@@ -74,12 +74,12 @@ body{
     font-family: "Montserrat";
     text-decoration: none;
     text-transform: uppercase;
-	transition: .6s ease;
+	transition: 1s ease;
 }
 .menu-a:hover{
     color: #000;
     /* border-bottom: 3px solid #000; */
-        transition: .6s ease;
+        transition: 1s ease;
 }
 
 .container{
@@ -138,10 +138,10 @@ body{
     text-decoration: none;
     padding-bottom: 5px;
     border-bottom: 3px solid #fff;
-	transition: .5s ease-in-out;
+	transition: 1s ease-in-out;
 }
 .text-a:hover{
-    transition: .5s ease-in-out;
+    transition: 1s ease-in-out;
     border-bottom: 3px solid #000;
     color: #000;
 }
@@ -430,9 +430,10 @@ body{
 	transition: .6s ease;
 }
 .hiring-a:hover{
-    background-color: #fff;
-    color: #fd8200;
+    background-color: #000;
+    color: #fff;
     transition: .6s ease;
+	
 }
 .quote{
     background-color: #fd8200;
