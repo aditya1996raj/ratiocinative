@@ -24,8 +24,9 @@ body{
     display: flex;
     align-items: center;
     padding: 30px 50px 20px 50px;
-    background-color: #f78444;
+    background-color: #fd8200;
     z-index: 999;
+	transition: all .6s ease;
 }
 .menu-ul{
     display: flex;
