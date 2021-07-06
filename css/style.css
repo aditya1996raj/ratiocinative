@@ -427,6 +427,7 @@ body{
     background-color: #fd8200;
     padding-bottom: 109px;
     padding-top: 115px;
+	    border-bottom: 3px solid #fff;
 }
 .quote-h2{
     font-size: 40px;
