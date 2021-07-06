@@ -282,13 +282,13 @@ body{
     position: relative;
 }
 .one{
-	padding-bottom: 48px;
+    padding-bottom: 48px;
 }
 .two{
     margin-left: 181px;
     margin-right: 156px;
     width: 26%;
-	padding-bottom: 79px;
+    padding-bottom: 79px;
 }
 /* .three{
 } */
@@ -427,19 +427,20 @@ body{
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-	transition: .6s ease;
+    transition: 1s ease;
+    border: none;
 }
 .hiring-a:hover{
     background-color: #000;
     color: #fff;
-    transition: .6s ease;
-	
+    transition: 1s ease;
+    border: none;
 }
 .quote{
     background-color: #fd8200;
     padding-bottom: 109px;
     padding-top: 115px;
-	    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 .quote-h2{
     font-size: 40px;
@@ -521,11 +522,11 @@ body{
     font-weight: 400;
     font-family: "Montserrat";
     text-decoration: none;
-	transition: .6s ease;
+    transition: 1s ease;
 	
 }
 .foot-a:hover{
-    transition: .6s ease;
+    transition: 1s ease;
     color: #f78444;
 }
 .foot-p{
