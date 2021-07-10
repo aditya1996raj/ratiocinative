@@ -1003,7 +1003,7 @@ body{
     }
     .menu-toggle{
         position: absolute;
-        right: 70px;
+        right: 40px;
         top: 43px;
         font-size: 30px;
         color: #fff;
@@ -1040,16 +1040,16 @@ body{
     }
     .footer{
         padding-top: 75px;
-	padding-bottom: 55px;
+	    padding-bottom: 55px;
     }
     .flex {
-         margin: 0px 30px;
+        margin: 0px 30px;
     }
-    .footer-logo{
-	text-align: start;
-	margin-left: 0px
-     }
-     .foot{
+    .foot-logo{
+	    text-align: start;
+	    margin-left: 0px
+    }
+    .foot{
 	 margin-left: 12px;
      }
      .foot-p{
@@ -1093,8 +1093,14 @@ body{
     .first{
         display: block;
     }
+    .logo {
+        width: 50%;
+    }
     .col2{
         margin-left: 0px;
+    }
+    .text-ul2{
+        display: block;
     }
     .product-h3 br{
         display: none;
@@ -1110,7 +1116,7 @@ body{
         padding-top: 35px;
     }
     .text-h1{
-        font-size: 21px;
+        font-size: 23px;
         line-height: 30px;
     }
     .text-p{
@@ -1153,13 +1159,13 @@ body{
     }
 
 }
-@media only screen and (max-width:454px){
+@media only screen and (max-width:446px){
     .text-li{
         line-height: 28px;
         font-size: 10px;
     }
     .text-h1{
-        font-size: 14px;
+        font-size: 20px;
         line-height: 30px;
     }
     .text-p{
@@ -1185,10 +1191,14 @@ body{
     }
     
     .product-h3{
-        font-size: 15px;
+        font-size: 18px;
     }
     .product-li{
-        font-size: 12px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .product-ul {
+        margin-top: 15px;
     }
     .product-ul li::before{
         font-size: 20px;
@@ -1261,11 +1271,21 @@ body{
     .flex{
         margin: 0 30px;
     }
+    .foot-logo img{
+        width: 65%;
+    }
 
 }
-@media only screen and (max-width:325px){
-     .col3 {
-   	 width: 82%;
-     }
-}
+@media only screen and (max-width:395px){
+    .product-h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .inner{
+        width: 84%;
+    }
+    .text-h1{
+        font-size: 18px;
+    }
 
+}
