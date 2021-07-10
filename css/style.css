@@ -917,6 +917,7 @@ body{
     .banner-text {
         padding-top: 175px;
 	padding-bottom: 75px;
+	margin: 0 30px;
     }
     .text-p {
         font-size: 15px;
@@ -937,7 +938,11 @@ body{
     .product-row{
         margin-right: 30px;
         margin-left: 30px;
-	        padding-bottom: 35px;
+	padding-bottom: 35px;
+    }
+    .first{
+        width: 100%;
+        margin: 0 auto;
     }
     .one {
         padding-bottom: 40px;
@@ -948,12 +953,17 @@ body{
     .three{
          padding-bottom: 40px;
     }
-    .first{
-        width: 90%;
-        margin: 0 auto;
-    }
     .inner {
-        width: 92%;
+         margin: 0 30px;
+         width: 92%;
+    }
+    .col3{
+        padding-bottom: 30px;
+        width: 100%;
+    }
+    .hiring-row{
+        margin-right: 30px;
+        margin-left: 30px;
     }
     .hiring-text{
         width: 100%;
@@ -965,10 +975,7 @@ body{
     .hiring-a {
         font-size: 12px;
     }
-    .col3{
-        padding-bottom: 30px;
-        width: 100%;
-    }
+    
     .sol-text2 {
         width: 100%;
     }
@@ -1046,8 +1053,9 @@ body{
 	 margin-left: 12px;
      }
      .foot-p{
-	 text-align:start:
+	 text-align:start;
       }
+	
 }
 
 @media only screen and (max-width:693px){
@@ -1066,12 +1074,22 @@ body{
     .foot-p {
         font-size: 13px;
     }
-
 }
-@media only screen and (max-width:637px) {
+@media only screen and (max-width:685px){
+    .text-h1{
+	font-size: 30px;
+    }
+}
+@media only screen and (max-width:575px){
+    .text-h1{
+	font-size: 27px;
+    }
 }
 
-@media only screen and (max-width:507px){
+	
+
+
+@media only screen and (max-width:518px){
     .first{
         display: block;
     }
@@ -1092,7 +1110,7 @@ body{
         padding-top: 35px;
     }
     .text-h1{
-        font-size: 20px;
+        font-size: 21px;
         line-height: 30px;
     }
     .text-p{
