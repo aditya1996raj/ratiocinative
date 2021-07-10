@@ -321,7 +321,7 @@ body{
 .five{
     margin-left: 182px;
     margin-right: 160px;
-    width: 358px!important;
+    width: 358px;
 }
 .six{
     width: 24%;
@@ -1222,3 +1222,9 @@ body{
     }
 
 }
+@media only screen and (max-width:325px){
+     .col3 {
+   	 width: 82%;
+     }
+}
+
