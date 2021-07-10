@@ -339,7 +339,7 @@ body{
 }
 .inner{
     margin: 0 auto;
-    width: 559px;
+    width: 565px;
     margin-left: 260px;
 }
 .col3{
@@ -552,7 +552,6 @@ body{
     color: #f78444;
 }
 .foot-p{
-    padding-left: 6%;
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 28px;
@@ -573,6 +572,7 @@ body{
 }
 .copy{
     background-color: #222222;
+    padding-left: 6%;
 }
 .toggle{
     display: none;
