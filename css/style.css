@@ -486,13 +486,10 @@ body{
     margin: 0px;
     margin-top: 27px;
 }
-
-
-
 .footer{
     background-color: #222222;
     padding-top: 120px;
-    padding-bottom: 118px;
+    padding-bottom: 109px;
     border-bottom: 1px solid #4e4e4e;
 }
 .flex{
@@ -501,6 +498,9 @@ body{
 }
 .foot-logo{
     margin-left: 17px;
+}
+.foot-logo img{
+	width:87%
 }
 .foot-menu{
     display: flex;
@@ -534,14 +534,14 @@ body{
     font-family: "Montserrat";
 }
 .li3{
-    font-weight: 400;
+    font-weight: 500;
 }
 .foot-a{
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 25px;
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 500;
     font-family: "Montserrat";
     text-decoration: none;
     transition: 1s ease;
@@ -560,13 +560,8 @@ body{
     font-family: "Montserrat";
     text-align: center;
     margin: 0px;
-    padding: 11px 0px;
+    padding: 15px 0px;
 }
-
-
-
-
-
 .hire-img{
     display: none;
 }
@@ -773,6 +768,10 @@ body{
         align-items: center;
         margin: 0 auto;
     }
+    .foot-logo img{
+	width: auto;
+    }
+		
     
 }
 @media only screen and (max-width:1100px){
