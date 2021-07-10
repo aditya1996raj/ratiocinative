@@ -910,31 +910,64 @@ body{
     } 
 }
 @media only screen and (max-width:750px) {
-/*     .nav {
-        width: 87%;
-    } */
+    .nav, .affix {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
     .banner-text {
         padding-top: 175px;
+	padding-bottom: 75px;
     }
     .text-p {
-        font-size: 12px;
+        font-size: 15px;
+	line-height: 25px;
     }
     .text-h1{
-        font-size: 30px;
+        font-size: 33px;
         line-height: 45px;
+	margin-bottom: 25px;
+    }
+    .text-h1 strong{
+	letter-spacing: -5px;
+    }
+    .solution{
+	padding-top: 75px;
+        margin: 0px 30px;
+    }
+    .product-row{
+        margin-right: 30px;
+        margin-left: 30px;
+	        padding-bottom: 35px;
+    }
+    .one {
+        padding-bottom: 40px;
+    }
+    .two{
+         padding-bottom: 40px;
+    }
+    .three{
+         padding-bottom: 40px;
     }
     .first{
         width: 90%;
         margin: 0 auto;
     }
+    .inner {
+        width: 92%;
+    }
     .hiring-text{
-        width: 90%;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .gap {
+        padding-bottom: 75px;
     }
     .hiring-a {
         font-size: 12px;
     }
     .col3{
         padding-bottom: 30px;
+        width: 100%;
     }
     .sol-text2 {
         width: 100%;
@@ -945,6 +978,13 @@ body{
     .top-nav{
         align-items: center;
     }
+    .quote{
+        padding-bottom: 75px;
+        padding-top: 75px;
+     }
+     .quote-h2{
+	line-height: 36px;
+     }
     .logo{
         width: 35%;
     }
@@ -966,30 +1006,48 @@ body{
     }
     .active{
         position: absolute;
-        top: 50px;
-        /* background: transparent; */
-        /* width: 50%; */
+        top: 75px;
+        background: #f0f0f0;
+        width: 50%;
         right: 0px;
-        background-color: #fd8200;
-        /* border-radius: 20px 0px 0 20px; */
-        transition: 0.6s;
-        width: 100%; 
-        display: block;
+        display: block!important;
     }
     .menu-ul{
-        width: 50%;
+        width: 100%;
         display: none;
+        /* border-radius: 20px 0px 0px 20px; */
     }
-    .menu-li{
+    .menu-li {
+        margin-left: 30px;
+        text-align: start;
+    }
+/*     .menu-li{
         display: block;
         text-align: center;
-    }
+    } */
     .active{
         display: block;
     }
     .product-h3 br{ 
         display: none;
     }
+    .footer{
+        padding-top: 75px;
+	padding-bottom: 55px;
+    }
+    .flex {
+         margin: 0px 30px;
+    }
+    .footer-logo{
+	text-align: start;
+	margin-left: 0px
+     }
+     .foot{
+	 margin-left: 12px;
+     }
+     .foot-p{
+	 text-align:start:
+      }
 }
 
 @media only screen and (max-width:693px){
@@ -997,7 +1055,7 @@ body{
         font-size: 12px;
     }
     .text-h1{
-        font-size: 25px;
+        font-size: 28px;
     }
     .text-ul2{
         flex-wrap: wrap;
@@ -1010,12 +1068,9 @@ body{
     }
 
 }
-@media only screen and (max-width:650px) {
-    .menu-toggle{
-        top: 38px;
-    }
-    
+@media only screen and (max-width:637px) {
 }
+
 @media only screen and (max-width:507px){
     .first{
         display: block;
@@ -1081,9 +1136,6 @@ body{
 
 }
 @media only screen and (max-width:454px){
-    .top-nav{
-        padding: 30px 30px;
-    }
     .text-li{
         line-height: 28px;
         font-size: 10px;
@@ -1174,26 +1226,6 @@ body{
         margin-top: 14px;
         font-size: 12px;
     }
-    .footer{
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .foot-logo img{
-        width: 100%;
-    }
-    .foot{
-        margin-left: 14px;
-    }
-    .foot-li{
-        line-height: 28px;
-        font-size: 13px;
-    }
-    .foot-a{
-        font-size: 13px;
-    }
-    .foot-p{
-        font-size: 8px;
-    }
     .banner-text{
         margin: 0px 30px;
     }
@@ -1204,20 +1236,12 @@ body{
         margin-right: 30px;
         margin-left: 30px;
     }
-    .col3{
-        margin: 0px 30px;
-    }
-    .inner{
-        width: 100%;
-    }
+
     .quote-text{
         margin: 0 30px;
     }
     .flex{
         margin: 0 30px;
-    }
-    .foot-logo{
-        width: 75%;
     }
 
 }
