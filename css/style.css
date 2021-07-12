@@ -232,12 +232,12 @@ body{
     /* width: 33%; */
     padding-bottom: 35px;
 }
-.first img{
+/* .first img{
     width: 90px;
 }
 .three img{
     width: auto;
-}
+} */
 .col2{
     margin-left: 40px;
 }
@@ -279,10 +279,10 @@ body{
     margin-left: 56px;
 }
 .ecom-list{
-    margin-left: 42px;
+    margin-left: 30px;
 }
 .host-list {
-    margin-left: 38px;
+    margin-left: 40px;
 }
 .graphic-ul{
     padding-left: 18px;
@@ -508,12 +508,6 @@ body{
     display: flex;
 
 }
-.foot-logo{
-    margin-left: 17px;
-}
-.foot-logo img{
-	width:87%
-}
 .foot-menu{
     display: flex;
     margin-left: auto;
@@ -523,9 +517,7 @@ body{
     list-style: none;
     margin: 0px;
 }
-.foot-ul:last-child{
-    padding-right: 11px;
-}
+
 .foot{
     margin-left: 79px;
     padding: 0px 3px;
