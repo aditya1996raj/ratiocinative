@@ -519,8 +519,8 @@ body{
 }
 
 .foot{
-    margin-left: 79px;
-    padding: 0px 3px;
+    margin-left: 88px;
+/*     padding: 0px 3px; */
     position: relative;
 }
 .foot-ul::before{
