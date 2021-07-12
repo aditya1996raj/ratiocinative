@@ -842,10 +842,11 @@ body{
         flex-direction: column-reverse;
     }
     .inner{
-        width: 88%;
+        width: 94%;
+        margin: auto 30px;
     }
     .col3{
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         padding-bottom: 30px;
     }
@@ -869,11 +870,20 @@ body{
     }
     .hiring-text{
         width: 100%;
+	margin-left: 15px;
+    }
+    .hiring-row{
+        margin-left: 16px;
     }
 }
 @media only screen and (max-width:929px) {
     .footer{
         padding-bottom: 82px;
+    }
+    .foot-logo{
+        text-align: start;
+	margin-bottom: 40px;
+        margin-left: 26px;
     }
     .foot-menu{
         display: block;
@@ -1161,6 +1171,9 @@ body{
         top: 32px;
         font-size: 23px;
     }
+    .six{
+	padding-bottom:0px
+    }
 
 }
 @media only screen and (max-width:446px){
@@ -1213,11 +1226,13 @@ body{
     .start-h6{
         text-align: start;
         font-size: 10px;
+	margin-top: 0px;
     }
     .start-h3{
         line-height: 25px;
         text-align: start;
         font-size: 20px;
+	letter-spacing: 0px;
     }
     .start-p{
         font-size: 10px;
@@ -1226,11 +1241,15 @@ body{
     .gap{
         padding-bottom: 40px;
     }
+    .hirinh-row{
+	margin-left: 24px
+    }
     .hiring-img{
         width: 100%;
     }
     .hiring-text{
         width: 100%;
+        margin-left: 8px;
     }
     .hiring-h6{
         font-size: 10px;
@@ -1242,9 +1261,10 @@ body{
     .hiring-p{
         font-size: 10px;
         line-height: 22px;
+	margin-bottom: 30px;
     }
     .hiring-a{
-        padding: 10px;
+        padding: 15px;
         font-size: 10px;
     }
     .quote{
