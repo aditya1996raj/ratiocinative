@@ -1314,3 +1314,11 @@ body{
     }
 
 }
+@media only screen and (max-width:362px){
+     .text-h1{
+        font-size: 18px;
+     }
+     .text-li{
+	font-size: 12px;
+     }
+}
