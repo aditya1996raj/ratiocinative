@@ -893,6 +893,8 @@ body{
     }
     .foot-p{
         font-size: 14px;
+	text-align: start;
+        padding-left: 58px;
     }
     
 }
@@ -921,7 +923,13 @@ body{
     }   
     .header br{
         display: none;
-    } 
+    }
+    .product-row{
+         padding-bottom: 0px
+    }
+    .start-h6{
+	 margin-top: 0px;
+    }
 }
 @media only screen and (max-width:750px) {
     .nav, .affix {
@@ -1300,6 +1308,9 @@ body{
     .foot-logo img{
         width: 65%;
     }
+    .copy{
+	padding-left: 30px;
+     }
 
 }
 @media only screen and (max-width:395px){
