@@ -523,6 +523,9 @@ body{
 /*     padding: 0px 3px; */
     position: relative;
 }
+.foot:last-child{
+    margin-left: 90px;
+}
 .foot-ul::before{
     content: url(../image/foot-border.png);
     position: absolute;
