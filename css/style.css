@@ -1186,14 +1186,15 @@ body{
         line-height: 30px;
     }
     .text-p{
-        font-size: 10px;
+        font-size: 12px;
         line-height: 22px;
     }
     .text-a{
-        font-size: 11px;
+        font-size: 12px;
     }
     .sol-text-h6{
-        font-size: 9px;
+        font-size: 13px;
+	line-height: 25px;
     }
     .sol-text-h2{
         font-size: 20px;
@@ -1204,7 +1205,7 @@ body{
     }
     .sol-text-p{
         line-height: 22px;
-        font-size: 10px;
+        font-size: 12px;
     }
     
     .product-h3{
@@ -1235,7 +1236,7 @@ body{
 	letter-spacing: 0px;
     }
     .start-p{
-        font-size: 10px;
+        font-size: 12px;
         line-height: 20px;
     }
     .gap{
@@ -1252,20 +1253,20 @@ body{
         margin-left: 8px;
     }
     .hiring-h6{
-        font-size: 10px;
+        font-size: 12px;
     }
     .hiring-h3{
         line-height: 30px;
         font-size: 20px;
     }
     .hiring-p{
-        font-size: 10px;
+        font-size: 12px;
         line-height: 22px;
 	margin-bottom: 30px;
     }
     .hiring-a{
-        padding: 15px;
-        font-size: 10px;
+        padding: 14px;
+        font-size: 12px;
     }
     .quote{
         padding: 40px 0px;
