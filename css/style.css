@@ -1244,6 +1244,7 @@ body{
     }
     .sol-text-span{
         font-size: 22px;
+	letter-spacing: 1px;
     }
     .sol-text-p{
         line-height: 22px;
