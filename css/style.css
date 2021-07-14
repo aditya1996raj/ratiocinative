@@ -1238,12 +1238,12 @@ body{
         margin-bottom: 15px;
     }
     .sol-text-h2{
-        font-size: 20px;
+        font-size: 22px;
         line-height: 15px;
         letter-spacing: 1px;
     }
     .sol-text-span{
-        font-size: 20px;
+        font-size: 22px;
     }
     .sol-text-p{
         line-height: 22px;
@@ -1378,6 +1378,9 @@ body{
      }
      .sol-text-h2 {
         font-size: 22px;
+     }
+     .sol-text-span{
+	font-size: 22px;
      }
      .sol-text-p{
 	 font-size: 14px;
