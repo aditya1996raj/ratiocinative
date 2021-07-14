@@ -595,9 +595,6 @@ body{
 }
 
 @media only screen and (max-width:1520px) {
-/*     .nav {
-        width: 94%;
-    } */
     .banner-text{
         margin: 0px 60px;
     }
@@ -608,6 +605,9 @@ body{
         margin-top: 60px;
         margin-right: 60px;
         margin-left: 60px;
+    }
+    .inner{
+        margin-left: 120px;
     }
     .quote-text{
         margin: 0 60px;
@@ -632,6 +632,19 @@ body{
         margin: 0px 60px;
     }
 }
+@media only screen and (max-width:1453px){
+    .inner{
+        margin-left: 77px;
+    }
+    .col3{
+        padding: 75px 0px;
+    }
+    .start-h6{
+        margin-top: 0px;
+
+    }
+}
+
 
 @media only screen and (max-width:1367px){
     .text-li{
@@ -665,16 +678,19 @@ body{
         font-size: 35px;
     }
     .foot{
-        margin-left: 40px;
+        margin-left: 40px!important;
     }
     .inner{
-        margin: 0 auto;
-        width: 567px;
-        /* margin-right: 260px; */
+        margin-left: 62px;
+        /* width: 422px;
+        margin-right: 260px; */
     }
-/*     .nav {
-        width: 93%;
-    } */
+    .col3{
+        padding: 100px 0px;
+    }
+    .foot-p{
+        padding-left: 35px;
+    }
 }
 
 @media only screen and (max-width:1287px){
@@ -689,6 +705,9 @@ body{
     }
     .hiring-img{
         width: 49%;
+    }
+    .product-row{
+        padding-bottom: 25px;
     }
 
 }
@@ -845,8 +864,8 @@ body{
         flex-direction: column-reverse;
     }
     .inner{
-        width: 94%;
-        margin: auto 30px;
+        width: 86%;
+        margin: auto 60px;
     }
     .col3{
         width: 100%;
@@ -873,10 +892,16 @@ body{
     }
     .hiring-text{
         width: 100%;
-	margin-left: 15px;
+	    margin-left: 15px;
     }
     .hiring-row{
-        margin-left: 16px;
+        margin-left: 46px;
+    }
+    .foot {
+        margin-left: 15px!important;
+    }
+    .foot-logo{
+        margin-left: 0px;
     }
 }
 @media only screen and (max-width:929px) {
@@ -885,8 +910,8 @@ body{
     }
     .foot-logo{
         text-align: start;
-	margin-bottom: 40px;
-        margin-left: 26px;
+	    margin-bottom: 40px;
+        /* margin-left: 26px; */
     }
     .foot-menu{
         display: block;
@@ -896,8 +921,8 @@ body{
     }
     .foot-p{
         font-size: 14px;
-	text-align: start;
-        padding-left: 58px;
+	    text-align: start;
+        padding-left: 5px;
     }
     
 }
@@ -928,10 +953,10 @@ body{
         display: none;
     }
     .product-row{
-         padding-bottom: 0px
+        padding-bottom: 30px;
     }
     .start-h6{
-	 margin-top: 0px;
+	    margin-top: 0px;
     }
 }
 @media only screen and (max-width:750px) {
@@ -1075,11 +1100,13 @@ body{
 	    margin-left: 0px
     }
     .foot{
-	 margin-left: 12px;
-     }
-     .foot-p{
-	 text-align:start;
-      }
+	    margin-left: 12px!important;
+    }
+    .foot-p{
+        text-align:start;
+        padding-left: 0px;
+
+    }
 	
 }
 
@@ -1197,20 +1224,23 @@ body{
         line-height: 30px;
     }
     .text-p{
-        font-size: 12px;
+        font-size: 14px;
         line-height: 22px;
     }
     .text-a{
         font-size: 14px;
-	letter-spacing: 0px;
+	    letter-spacing: 0px;
     }
     .sol-text-h6{
         font-size: 13px;
-	line-height: 25px;
+	    line-height: 25px;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
     }
     .sol-text-h2{
         font-size: 20px;
-        line-height: 20px;
+        line-height: 15px;
+        letter-spacing: 1px;
     }
     .sol-text-span{
         font-size: 20px;
@@ -1239,13 +1269,14 @@ body{
     .start-h6{
         text-align: start;
         font-size: 14px;
-	margin-top: 0px;
+        margin-top: 0px;
+        letter-spacing: 1px;
     }
     .start-h3{
         line-height: 25px;
         text-align: start;
         font-size: 20px;
-	letter-spacing: 0px;
+	    letter-spacing: 1px;
     }
     .start-p{
         font-size: 14px;
@@ -1255,7 +1286,7 @@ body{
         padding-bottom: 40px;
     }
     .hirinh-row{
-	margin-left: 24px
+	    margin-left: 24px
     }
     .hiring-img{
         width: 100%;
@@ -1270,11 +1301,12 @@ body{
     .hiring-h3{
         line-height: 30px;
         font-size: 20px;
+        letter-spacing: 1px;
     }
     .hiring-p{
         font-size: 14px;
         line-height: 22px;
-	margin-bottom: 30px;
+	    margin-bottom: 30px;
     }
     .hiring-a{
         padding: 14px;
@@ -1286,6 +1318,7 @@ body{
     .quote-h2{
         font-size: 20px;
         line-height: 30px;
+        letter-spacing: 1px;
     }
     .quote-h6{
         margin-top: 14px;
@@ -1301,7 +1334,6 @@ body{
         margin-right: 30px;
         margin-left: 30px;
     }
-
     .quote-text{
         margin: 0 30px;
     }
@@ -1312,8 +1344,8 @@ body{
         width: 65%;
     }
     .copy{
-	padding-left: 30px;
-     }
+	    padding-left: 30px;
+    }
 
 }
 @media only screen and (max-width:395px){
@@ -1325,7 +1357,7 @@ body{
         width: 84%;
     }
     .text-h1{
-        font-size: 18px;
+        font-size: 25px;
     }
 
 }
