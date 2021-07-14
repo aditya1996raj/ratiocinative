@@ -722,9 +722,11 @@ body{
     .hiring-h6{
         margin-top: 0px;
         font-size: 14px;
+	letter-spacing: 1px;
     }
     .hiring-h3{
         font-size: 30px;
+	letter-spacing: 0px;
     }
     .hiring-p{
         font-size: 15px;
@@ -762,6 +764,11 @@ body{
     }
     .sol-text-h2{
         font-size: 30px;
+	letter-spacing: 0px
+    }
+    .sol-text-span{
+        font-size: 30px;
+	letter-spacing: 0px	    
     }
     .product-h3{
         font-size: 18px;
@@ -838,6 +845,9 @@ body{
     .text-p {
         font-size: 15px;
         line-height: 30px;
+    }
+    .text-a{
+	letter-spacing: 0px;
     }
     .solution{
         display: block;
@@ -948,6 +958,8 @@ body{
     }
     .quote-h2 {
         font-size: 24px;
+	letter-spacing: 1px;
+	line-height: 35px;
     }   
     .header br{
         display: none;
