@@ -663,7 +663,8 @@ body{
         font-size: 33px;
     }
     .start-p{
-        font-size: 13px;
+        font-size: 14px;
+        letter-spacing: 1px;
     }
     .hiring-h3{
         font-size: 35px;
@@ -722,14 +723,15 @@ body{
     .hiring-h6{
         margin-top: 0px;
         font-size: 14px;
-	letter-spacing: 1px;
+	    letter-spacing: 1px;
     }
     .hiring-h3{
         font-size: 30px;
-	letter-spacing: 0px;
+	    letter-spacing: 0px;
     }
     .hiring-p{
         font-size: 15px;
+        letter-spacing: 1px;
     }
     /* .col4 img{
         height: auto;
@@ -757,18 +759,19 @@ body{
         font-size: 13px;
     }
     .sol-text-h6{
-        font-size: 11px;
+        font-size: 16px;
+        letter-spacing: 1px;
     }
     .sol-text-p{
-        font-size: 13px;
+        font-size: 14px;
     }
     .sol-text-h2{
         font-size: 30px;
-	letter-spacing: 0px
+	    letter-spacing: 0px
     }
     .sol-text-span{
         font-size: 30px;
-	letter-spacing: 0px	    
+	    letter-spacing: 0px	    
     }
     .product-h3{
         font-size: 18px;
@@ -781,6 +784,7 @@ body{
     }
     .start-h3{
         font-size: 30px;
+        letter-spacing: 0px;
     }
     .col3{
         padding-top: 25px;
@@ -802,7 +806,7 @@ body{
         margin: 0 auto;
     }
     .foot-logo img{
-	width: auto;
+	    width: auto;
     }
 		
     
@@ -969,6 +973,7 @@ body{
     }
     .start-h6{
 	    margin-top: 0px;
+        letter-spacing: 1px;
     }
 }
 @media only screen and (max-width:750px) {
@@ -978,29 +983,29 @@ body{
     }
     .banner-text {
         padding-top: 175px;
-	padding-bottom: 75px;
-	margin: 0 30px;
+	    padding-bottom: 75px;
+	    margin: 0 30px;
     }
     .text-p {
         font-size: 15px;
-	line-height: 25px;
+	    line-height: 25px;
     }
     .text-h1{
         font-size: 33px;
         line-height: 45px;
-	margin-bottom: 25px;
+	    margin-bottom: 25px;
     }
     .text-h1 strong{
-	letter-spacing: -5px;
+	    letter-spacing: -5px;
     }
     .solution{
-	padding-top: 75px;
+	    padding-top: 75px;
         margin: 0px 30px;
     }
     .product-row{
         margin-right: 30px;
         margin-left: 30px;
-	padding-bottom: 35px;
+	    padding-bottom: 35px;
     }
     .first{
         width: 100%;
@@ -1010,14 +1015,14 @@ body{
         padding-bottom: 40px;
     }
     .two{
-         padding-bottom: 40px;
+        padding-bottom: 40px;
     }
     .three{
-         padding-bottom: 40px;
+        padding-bottom: 40px;
     }
     .inner {
-         margin: 0 30px;
-         width: 92%;
+        margin: 0 30px;
+        width: 92%;
     }
     .col3{
         padding-bottom: 30px;
@@ -1051,9 +1056,9 @@ body{
         padding-bottom: 75px;
         padding-top: 75px;
      }
-     .quote-h2{
-	line-height: 36px;
-     }
+    .quote-h2{
+	    line-height: 36px;
+    }
     .logo{
         width: 35%;
     }
@@ -1222,7 +1227,7 @@ body{
         font-size: 23px;
     }
     .six{
-	padding-bottom:0px
+	    padding-bottom:0px
     }
 
 }
@@ -1241,7 +1246,7 @@ body{
     }
     .text-a{
         font-size: 14px;
-	    letter-spacing: 0px;
+        letter-spacing: 1px;
     }
     .sol-text-h6{
         font-size: 13px;
@@ -1256,7 +1261,7 @@ body{
     }
     .sol-text-span{
         font-size: 22px;
-	letter-spacing: 1px;
+	    letter-spacing: 1px;
     }
     .sol-text-p{
         line-height: 22px;
@@ -1375,27 +1380,27 @@ body{
 
 }
 @media only screen and (max-width:362px){
-     .text-h1{
-	 font-size: 22px;
-         letter-spacing: 0px;
-     }
-     .text-li{
-	font-size: 14px;
-     }
-     .text-p {
+    .text-h1{
+	    font-size: 22px;
+        letter-spacing: 0px;
+    }
+    .text-li{
+	    font-size: 14px;
+    }
+    .text-p {
         font-size: 14px;
         line-height: 22px;
-     }
-     .sol-text-h6 {
+    }
+    .sol-text-h6 {
         font-size: 14px;
-     }
-     .sol-text-h2 {
+    }
+    .sol-text-h2 {
         font-size: 22px;
-     }
-     .sol-text-span{
-	font-size: 22px;
-     }
-     .sol-text-p{
-	 font-size: 14px;
-     }
+    }
+    .sol-text-span{
+	    font-size: 22px;
+    }
+    .sol-text-p{
+	    font-size: 14px;
+    }
 }
